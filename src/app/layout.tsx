@@ -26,8 +26,8 @@ export default function RootLayout({
                   <Image
                     src="/images/Logo-innertube.png"
                     alt="Dabinko Logo"
-                    width={150}
-                    height={40}
+                    width={270}
+                    height={72}
                     priority
                   />
                 </a>
