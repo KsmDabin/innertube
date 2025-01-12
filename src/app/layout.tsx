@@ -34,6 +34,7 @@ export default function RootLayout({
                 <div className="flex items-center space-x-1">
                   <a href="/" className="py-4 px-2">Home</a>
                   <a href="/about" className="py-4 px-2">About us</a>
+                  <a href="/products" className="py-4 px-2">Products</a>
                   <a href="/production" className="py-4 px-2">Production procedure</a>
                   <a href="/contact" className="py-4 px-2">Contact Us</a>
                 </div>
