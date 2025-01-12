@@ -57,7 +57,7 @@ export default function RootLayout({
                 <h3 className="text-lg font-semibold mb-4">Social Media</h3>
                 <p>Contact us via WhatsApp, WeChat, or Telegram</p>
                 <p className="mt-4">
-                  <a href="http://www.florescencetube.com" className="text-blue-400 hover:underline">
+                  <a href="https://tubetyre.com" className="text-blue-400 hover:underline">
                     Visit Our Website
                   </a>
                 </p>
