@@ -50,7 +50,7 @@ export default function RootLayout({
                 <div className="space-y-3">
                   <p className="flex items-start">
                     <span className="mr-2">🏢</span>
-                    Rm. 301-3, Daekyung T&S Bldg., 9, Yonghyeon-ro, Deogyang-gu, Goyang-si, Gyeonggi-do
+                    Rm. 301-3, Daekyung T&S Bldg., 9, Yonghyeon-ro, Deogyang-gu, Goyang-si, Gyeonggi-do, South-Korea
                   </p>
                   <p className="flex items-center">
                     <span className="mr-2">📞</span>

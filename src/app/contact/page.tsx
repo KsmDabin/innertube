@@ -37,11 +37,8 @@ export default function Contact() {
           </div>
           <h3 className="text-xl font-semibold mb-4">E-mail</h3>
           <p>
-            <a href="mailto:info@florescence.cc" className="text-blue-600 hover:underline">info@florescence.cc</a>
-          </p>
-          <p>
-            <a href="mailto:info85@florescence.cc" className="text-blue-600 hover:underline">info85@florescence.cc</a>
-          </p>
+            <a href="mailto:dabinko@kita.net" className="text-blue-600 hover:underline">dabinko@kita.net</a>
+          </p>          
         </div>
 
         {/* Phone */}
@@ -52,7 +49,7 @@ export default function Contact() {
             </svg>
           </div>
           <h3 className="text-xl font-semibold mb-4">Phone</h3>
-          <p className="text-gray-600">0086-532-86760999 ext. 805</p>
+          <p className="text-gray-600">+821087764677</p>
         </div>
 
         {/* Hours */}
