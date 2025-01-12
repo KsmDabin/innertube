@@ -58,6 +58,10 @@ export default function RootLayout({
                     +821087764677
                   </p>
                   <p className="flex items-center">
+                    <span className="mr-2">📠</span>
+                    +82260089735
+                  </p>
+                  <p className="flex items-center">
                     <span className="mr-2">📧</span>
                     dabinko@kita.net
                   </p>
