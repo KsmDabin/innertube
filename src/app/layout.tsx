@@ -24,7 +24,7 @@ export default function RootLayout({
               <div className="flex space-x-7">
                 <a href="/" className="flex items-center py-4">
                   <Image
-                    src="/images/logo.png"
+                    src="/images/Logo-innertube.png"
                     alt="Dabinko Logo"
                     width={150}
                     height={40}
