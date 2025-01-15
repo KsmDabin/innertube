@@ -55,7 +55,12 @@ export default function RootLayout({
                   </p>
                   <p className="flex items-center">
                     <span className="mr-2">📞</span>
-                    +821087764677
+                    <a 
+                      href="https://wa.me/821087764677?text=Chat%20on%20WhatsApp%20with%20%2B82%2010-8776-4677" 
+                      className="hover:text-yellow-500 transition-colors"
+                    >
+                      +821087764677
+                    </a>
                   </p>
                   <p className="flex items-center">
                     <span className="mr-2">📠</span>
