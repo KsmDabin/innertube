@@ -43,12 +43,12 @@ export default function RootLayout({
           </div>
         </nav>
         {children}
-        <footer className="bg-gray-900 text-white py-12">
+        <footer className="bg-gray-900 text-white py-8">
           <div className="max-w-6xl mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
-                <h3 className="text-2xl font-bold mb-6 border-l-4 border-yellow-500 pl-3">CONTACT US</h3>
-                <div className="space-y-3">
+                <h3 className="text-2xl font-bold mb-4">CONTACT US</h3>
+                <div className="space-y-2">
                   <p className="flex items-start">
                     <span className="mr-2">🏢</span>
                     Rm. 301-3, Daekyung T&S Bldg., 9, Yonghyeon-ro, Deogyang-gu, Goyang-si, Gyeonggi-do, South-Korea
@@ -73,8 +73,25 @@ export default function RootLayout({
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-6 border-l-4 border-yellow-500 pl-3">FOLLOW US</h3>
-                <div className="flex flex-col space-y-4">
+                <h3 className="text-2xl font-bold mb-4">HOT PRODUCTS</h3>
+                <div className="space-y-2">
+                  <p className="flex items-start">
+                    <span className="mr-2">🏭</span>
+                    Butyl Inner Tubes
+                  </p>
+                  <p className="flex items-start">
+                    <span className="mr-2">🚚</span>
+                    Transportation
+                  </p>
+                  <p className="flex items-start">
+                    <span className="mr-2">🌐</span>
+                    Online Sales
+                  </p>
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-4">FOLLOW US</h3>
+                <div className="flex flex-col space-y-2">
                   <a href="https://wa.me/821087764677?text=Chat%20on%20WhatsApp%20with%20%2B82%2010-8776-4677" 
                      className="flex items-center group">
                     <svg className="w-6 h-6 mr-3 text-[#25D366]" viewBox="0 0 24 24" fill="currentColor">
@@ -98,19 +115,16 @@ export default function RootLayout({
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-6 border-l-4 border-yellow-500 pl-3">SUBSCRIBE</h3>
+                <h3 className="text-2xl font-bold mb-4">SUBSCRIBE</h3>
                 <p className="mb-4">For inquiries about our products or pricelist, please leave to us and we will be in touch within 24 hours.</p>
                 <button className="bg-yellow-500 text-black px-6 py-2 rounded hover:bg-yellow-400 transition-colors">
                   INQUIRY
                 </button>
               </div>
             </div>
-            <div className="mt-12 pt-8 border-t border-gray-800 text-center text-sm">
-              <p>© Copyright - 2010-2024 : All Rights Reserved.</p>
-              <p className="mt-2">
-                <a href="#" className="hover:text-yellow-500">Hot Products</a> - 
-                <a href="#" className="hover:text-yellow-500"> Sitemap</a> - 
-                <a href="#" className="hover:text-yellow-500"> AMP Mobile</a>
+            <div className="text-center mt-6 pt-4 border-t border-gray-800">
+              <p className="text-sm text-gray-400">
+                © 2024 Dabinko International Company. All rights reserved.
               </p>
             </div>
           </div>
