@@ -47,8 +47,8 @@ export default function RootLayout({
           <div className="max-w-6xl mx-auto px-4">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
-                <h3 className="text-2xl font-bold mb-4">CONTACT US</h3>
-                <div className="space-y-2">
+                <h3 className="text-2xl font-bold mb-6 border-l-4 border-yellow-500 pl-3">CONTACT US</h3>
+                <div className="space-y-3">
                   <p className="flex items-start">
                     <span className="mr-2">🏢</span>
                     Rm. 301-3, Daekyung T&S Bldg., 9, Yonghyeon-ro, Deogyang-gu, Goyang-si, Gyeonggi-do, South-Korea
@@ -57,7 +57,7 @@ export default function RootLayout({
                     <span className="mr-2">📞</span>
                     <a 
                       href="https://wa.me/821087764677?text=Chat%20on%20WhatsApp%20with%20%2B82%2010-8776-4677" 
-                      className="hover:text-[#7B2CBF] transition-colors"
+                      className="hover:text-yellow-500 transition-colors"
                     >
                       +821087764677
                     </a>
