@@ -170,6 +170,52 @@ export default function RootLayout({
             </div>
           </div>
         )}
+
+        {/* Main content remains unchanged */}
+        </main>
+
+        {/* Footer */}
+        <footer className="bg-gray-900 text-white py-8">
+          <div className="max-w-6xl mx-auto px-4">
+            <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+              <div>
+                <h3 className="text-lg font-semibold mb-4">About Us</h3>
+                <p className="text-gray-400">
+                  Dabinko International Company specializes in manufacturing high-quality butyl inner tubes.
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-4">Contact</h3>
+                <p className="text-gray-400">
+                  Email: dabinko@kita.net<br />
+                  Tel: +82-10-8776-4677
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-4">Address</h3>
+                <p className="text-gray-400">
+                  25, Seongsuil-ro 8-gil,<br />
+                  Seongdong-gu, Seoul,<br />
+                  Republic of Korea
+                </p>
+              </div>
+              <div>
+                <h3 className="text-lg font-semibold mb-4">Business Hours</h3>
+                <p className="text-gray-400">
+                  Monday - Friday<br />
+                  9:00 AM - 6:00 PM KST
+                </p>
+              </div>
+            </div>
+
+            {/* Copyright */}
+            <div className="text-center mt-6 pt-4 border-t border-gray-800">
+              <p className="text-sm text-gray-400">
+                © 2018 - 2025 Dabinko International Company. All rights reserved.
+              </p>
+            </div>
+          </div>
+        </footer>
       </body>
     </html>
   );
