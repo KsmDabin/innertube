@@ -159,7 +159,7 @@ export default function RootLayout({
             {/* Copyright */}
             <div className="text-center mt-6 pt-4 border-t border-gray-800">
               <p className="text-sm text-gray-400">
-                © 2024 Dabinko International Company. All rights reserved.
+                © 2018 - 2025 Dabinko International Company. All rights reserved.
               </p>
             </div>
           </div>
