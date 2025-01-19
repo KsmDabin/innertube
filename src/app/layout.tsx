@@ -61,7 +61,7 @@ export default function RootLayout({
           {children}
 
           {/* Floating Social Media Menu */}
-          <div className="fixed right-0 top-1/3 z-50 flex flex-col gap-1 bg-[#e8f5e9] rounded-l-lg shadow-lg md:translate-x-[70%] md:hover:translate-x-0 transition-transform duration-300">
+          <div className="fixed right-0 top-1/3 z-50 flex flex-col gap-2 bg-white rounded-l-lg shadow-lg">
             {/* WhatsApp */}
             <a
               href="https://wa.me/821087764677"
