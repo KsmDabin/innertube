@@ -117,9 +117,9 @@ export default function RootLayout({
         {children}
         <footer className="bg-gray-900 text-white py-8">
           <div className="max-w-6xl mx-auto px-4">
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
               <div>
-                <h3 className="text-2xl font-bold mb-4 border-l-4 border-yellow-500 pl-3">CONTACT US</h3>
+                <h3 className="text-2xl font-bold mb-4">CONTACT US</h3>
                 <div className="space-y-2">
                   <p className="flex items-start">
                     <span className="mr-2">🏢</span>
@@ -145,7 +145,13 @@ export default function RootLayout({
                 </div>
               </div>
               <div>
-                <h3 className="text-2xl font-bold mb-4 border-l-4 border-yellow-500 pl-3">FOLLOW US</h3>
+                <h3 className="text-2xl font-bold mb-4">HOT PRODUCTS</h3>
+                <div className="space-y-2">
+                  {/* Add hot products here */}
+                </div>
+              </div>
+              <div>
+                <h3 className="text-2xl font-bold mb-4">FOLLOW US</h3>
                 <div className="flex flex-col space-y-2">
                   <a href="https://wa.me/821087764677?text=Chat%20on%20WhatsApp%20with%20%2B82%2010-8776-4677" 
                      className="flex items-center group">
