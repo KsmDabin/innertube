@@ -1,16 +1,9 @@
 'use client';
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import Image from "next/image";
-import "./globals.css";
 import { useState } from 'react';
+import './globals.css';
+import { Inter } from 'next/font/google';
 
-const inter = Inter({ subsets: ["latin"] });
-
-export const metadata: Metadata = {
-  title: "Dabinko International Company",
-  description: "Manufacturer of Butyl Inner Tubes",
-};
+const inter = Inter({ subsets: ['latin'] });
 
 export default function RootLayout({
   children,
@@ -21,6 +14,10 @@ export default function RootLayout({
 
   return (
     <html lang="en">
+      <head>
+        <title>Dabinko International Company</title>
+        <meta name="description" content="Manufacturer of Butyl Inner Tubes" />
+      </head>
       <body className={inter.className}>
         {/* Main Content */}
         <main className="relative">
